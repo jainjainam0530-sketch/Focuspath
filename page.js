@@ -1,83 +1,74 @@
 import LegalShell from '@/components/legal-shell'
 
 export const metadata = {
-  title: 'Privacy Policy — FocusPath',
-  description: 'How FocusPath collects, uses, and protects student data. Your privacy is our first principle.',
+  title: 'Terms of Service — FocusPath',
+  description: 'The terms that govern your use of the FocusPath platform and FOCUS AI mentor.',
 }
 
-export default function PrivacyPage() {
+export default function TermsPage() {
   return (
-    <LegalShell title="Privacy Policy" eyebrow="POLICY • PRIVACY" updated="June 2026">
+    <LegalShell title="Terms of Service" eyebrow="POLICY • TERMS" updated="June 2026">
       <div className="callout">
-        FocusPath is committed to protecting the privacy and security of every student using our platform.
+        By using FocusPath, you agree to these terms. Please read them carefully — they exist to protect you and every student on the platform.
       </div>
 
-      <h2>1. Introduction</h2>
+      <h2>1. Acceptance of terms</h2>
       <p>
-        FocusPath (“we”, “our”, “the platform”) is an AI-powered student mentor built by Jainam, a 16-year-old founder based in India. This Privacy Policy explains what information we collect from you when you use the FocusPath website, mobile APK, or interact with FOCUS — our AI mentor.
-      </p>
-      <p>
-        By using FocusPath you agree to the practices described here. If you do not agree, please do not use the service.
+        These Terms of Service (“Terms”) form a binding agreement between you and FocusPath. By accessing the FocusPath website, installing the mobile APK, or interacting with FOCUS (our AI mentor), you accept these Terms in full. If you do not agree, do not use the service.
       </p>
 
-      <h2>2. Information we collect</h2>
+      <h2>2. Eligibility</h2>
       <ul>
-        <li><strong>Information you provide:</strong> your name (optional), class or role (optional), email or contact handle (optional), messages you send to FOCUS, reviews you post, and feedback, feature requests, or bug reports you submit.</li>
-        <li><strong>Usage data:</strong> anonymous counters such as APK download totals, page interactions, and conversation counts. These are stored without personal identifiers.</li>
-        <li><strong>Device and browser data:</strong> when you use the site or app your browser or device may send basic technical information (browser type, screen size, session identifier) to help us keep the experience stable.</li>
-        <li><strong>Voice input:</strong> if you use the optional voice interaction with FOCUS, speech recognition happens locally in your browser. FocusPath does not record or store your voice.</li>
+        <li>You must be at least 13 years old to use FocusPath.</li>
+        <li>If you are between 13 and 18, you confirm that a parent or legal guardian is aware of and consents to your use of the platform.</li>
+        <li>You must have the legal capacity to enter into this agreement in your country of residence.</li>
       </ul>
 
-      <h2>3. Why we collect it</h2>
+      <h2>3. Your responsibilities</h2>
       <ul>
-        <li>To let FOCUS deliver personalised, contextual guidance during your conversation.</li>
-        <li>To publish the reviews you choose to submit to our public Student Voices wall.</li>
-        <li>To read and act on your feedback, feature suggestions, and bug reports.</li>
-        <li>To measure aggregate usage so we can improve the product for every student.</li>
-        <li>To respond to messages you send through the Contact section.</li>
+        <li>Use FocusPath honestly, respectfully, and for personal educational and career guidance purposes.</li>
+        <li>Do not use the platform to send spam, hateful, unlawful, sexually explicit, or harmful content.</li>
+        <li>Do not attempt to reverse engineer, disrupt, or gain unauthorised access to any part of the service or its infrastructure.</li>
+        <li>Do not impersonate another person, misrepresent your affiliation, or submit false information.</li>
+        <li>You are responsible for any content you submit through reviews, feedback, or messages to FOCUS.</li>
       </ul>
 
-      <h2>4. How we store and protect data</h2>
+      <h2>4. Intellectual property</h2>
       <p>
-        All submissions are stored in a managed MongoDB database with encryption in transit (TLS/HTTPS). Access is restricted to the founder and authorised maintainers. We do not store passwords, biometric data, or payment information. Session identifiers are generated as UUIDs and do not reveal your identity.
+        The FocusPath name, FOCUS AI mentor, brand marks, UI, animations, code, and content are the intellectual property of the founder, Jainam, and are protected under applicable copyright and trademark laws. You may not copy, redistribute, sublicense, or create derivative works without written permission.
+      </p>
+      <p>
+        You retain ownership of the content you submit (reviews, messages, feedback). By submitting content you grant FocusPath a worldwide, royalty-free, non-exclusive licence to display, store, and use it in connection with running and improving the platform.
       </p>
 
-      <h2>5. Third-party services</h2>
-      <ul>
-        <li><strong>AI model provider:</strong> when you chat with FOCUS or post a review, your message is sent to a third-party large-language-model provider (currently OpenAI, routed through the Emergent integration platform) to generate a response. These providers process your message under their own privacy terms and do not associate it with your identity.</li>
-        <li><strong>Hosting:</strong> the platform is served through the Emergent cloud platform.</li>
-        <li><strong>File hosting:</strong> the FocusPath APK is delivered via a third-party file-sharing service (currently MediaFire).</li>
-      </ul>
+      <h2>5. AI guidance disclaimer</h2>
       <p>
-        We do not sell or rent your data to any third party for advertising or profiling.
+        <strong>FocusPath provides AI-assisted guidance. It does not guarantee any specific educational, exam, career, financial, or life outcome.</strong> FOCUS is a mentor, not an oracle. Always consult trusted teachers, mentors, and family before making important decisions. FocusPath is not a substitute for professional counselling, medical care, or legal advice.
       </p>
 
-      <h2>6. Your rights</h2>
-      <ul>
-        <li><strong>Access:</strong> request a copy of the data associated with you or your session.</li>
-        <li><strong>Correction:</strong> ask us to correct any inaccurate information you have submitted.</li>
-        <li><strong>Deletion:</strong> ask us to delete a specific review, message, or submission you made. If you are under 18, a parent or guardian may make this request on your behalf.</li>
-        <li><strong>Withdrawal:</strong> stop using FocusPath at any time. Your existing data will be removed on request.</li>
-      </ul>
-
-      <h2>7. Data retention</h2>
+      <h2>6. Limitation of liability</h2>
       <p>
-        Chat and review data is retained for as long as it remains useful to the running of FocusPath or until you request its deletion. Anonymous aggregate counters may be retained indefinitely for historical measurement. Backups are rotated regularly and expire within 90 days.
+        To the fullest extent permitted by law, FocusPath, its founder, and its contributors will not be liable for any indirect, incidental, consequential, or special damages arising out of or in connection with your use of the platform, including but not limited to loss of data, missed opportunities, or academic outcomes. The platform is provided on an “as is” and “as available” basis, without warranties of any kind.
       </p>
 
-      <h2>8. Children’s privacy</h2>
+      <h2>7. Suspension and termination</h2>
       <p>
-        FocusPath is designed for students aged 13–25. If you are under 13 you may only use FocusPath with the consent of a parent or guardian. We do not knowingly collect personal information from children under 13. If you believe a child under 13 has provided us with personal information, contact us and we will delete it promptly.
+        We may suspend or terminate your access to FocusPath at any time, without notice, if you violate these Terms, misuse the service, or engage in activity that harms other students, the platform, or third parties. You may stop using FocusPath at any time.
       </p>
 
-      <h2>9. Changes to this policy</h2>
+      <h2>8. Changes to the service and to these Terms</h2>
       <p>
-        We may update this policy from time to time. Material changes will be reflected in the “Updated” date at the top of this page. Continued use of FocusPath after an update means you accept the revised policy.
+        FocusPath is under active development. Features may be added, changed, or removed as the platform evolves. We may update these Terms from time to time; material changes will be reflected in the “Updated” date at the top of this page. Continued use of FocusPath after an update means you accept the revised Terms.
       </p>
 
-      <h2>10. Contact us</h2>
+      <h2>9. Governing law and jurisdiction</h2>
       <p>
-        For any privacy question, deletion request, or concern, please write to us at <a href="mailto:focus@focuspath.ai">focus@focuspath.ai</a> or use the <a href="/#contact">Contact section</a> on our homepage. We aim to respond within 48 hours.
+        These Terms are governed by the laws of India, without regard to its conflict-of-laws principles. Any dispute arising from or related to these Terms or your use of FocusPath will be subject to the exclusive jurisdiction of the competent courts located in India.
+      </p>
+
+      <h2>10. Contact</h2>
+      <p>
+        Questions about these Terms may be sent to <a href="mailto:focus@focuspath.ai">focus@focuspath.ai</a> or through the <a href="/#contact">Contact section</a>. We aim to respond within 48 hours.
       </p>
     </LegalShell>
   )
